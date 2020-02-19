@@ -10,6 +10,6 @@ input = "O S, GOMR YPFSU/"
 converter = Converter(rows)
 result = converter.convert(input)
 
-print(input)
-print(result)
+print(f"Input text: {input}")
+print(f"Output text: {result}")
 
